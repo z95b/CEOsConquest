@@ -1,4 +1,4 @@
-https://z95b.github.io/CEOsConquest/ 
+👉 👉 https://z95b.github.io/CEOsConquest/ 🟢
 
 # CEOsConquest (Web Multiplayer)
 
@@ -21,7 +21,7 @@ CEO's Conquest ahora tiene una versión web multijugador en tiempo real para jug
 ## Requisitos
 
 - Node.js 18+
-Instala la versión LTS. 👉 https://nodejs.org
+Instala la versión LTS. 👉 https://nodejs.org/es/download
 
 
 ## Ejecutar localmente
