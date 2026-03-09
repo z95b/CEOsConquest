@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEO's Conquest Online</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>🧠 CEO's Conquest Online</h1>
+      <section id="lobby" class="panel">
+        <h2>Sala</h2>
+        <input id="name" placeholder="Tu nombre" value="Jugador" />
+        <select id="character">
+          <option>Analista Arcano</option>
+          <option>Ninja de Producto</option>
+          <option>Guerrero de Ventas</option>
+          <option>Maga de Marketing</option>
+        </select>
+        <div class="row">
+          <button id="createBtn">Crear sala</button>
+          <input id="roomCodeInput" placeholder="Código sala" />
+          <button id="joinBtn">Unirse</button>
+        </div>
+        <p id="roomInfo">Aún no estás en una sala.</p>
+        <button id="startBtn" disabled>Iniciar partida (2+ jugadores)</button>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <h2>Tablero</h2>
+          <div id="board" class="board"></div>
+          <div class="row">
+            <button id="moveBtn" disabled>Mover</button>
+            <button id="attackBtn" disabled>Atacar</button>
+            <button id="randomBtn" disabled>🎲 Botón aleatorio</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Jugadores</h2>
+          <ul id="players"></ul>
+          <h3>Tienda</h3>
+          <div id="shop"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Log</h2>
+          <ul id="log" class="log"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
