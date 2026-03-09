@@ -21,6 +21,8 @@ CEO's Conquest ahora tiene una versión web multijugador en tiempo real para jug
 ## Requisitos
 
 - Node.js 18+
+Instala la versión LTS. 👉 https://nodejs.org
+
 
 ## Ejecutar localmente
 
